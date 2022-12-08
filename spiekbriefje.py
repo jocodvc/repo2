@@ -27,8 +27,16 @@ print('hallo ' + antwoord)  # of
 print(f'hallo {antwoord}, leuk kennis te maken!')
 
 
+# typecasting
 # int() = zet om naar naar int
 getal = int('6')
+# float() = zet string om naar float (mits mogelijk)
+antwoord = '17.2'
+getal = float(antwoord)
+
+# via de bif input kun je een vraag stellen aan een gebruiker
+antwoord = input('Hoe heet je?')
+
 
 
 
